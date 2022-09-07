@@ -1,0 +1,32 @@
+Algoritmo "troco"
+Var
+produto, dinheiro, troco : real
+quantidade : inteiro
+produto2, dinheiro2, troco2 : real
+quantidade2 : inteiro
+
+Inicio
+escreva("Preco unitario do produto: " )
+leia(produto)
+escreva("Quantidade comprada: ")
+leia(quantidade)
+escreva("Dinheiro recebido: ")
+leia(dinheiro)
+
+troco <- dinheiro - produto * quantidade
+
+escreva("Troco = ", troco :3:2)
+escreval()
+
+escreva("Preco unitario do produto: ")
+leia(produto2)
+escreva("Quantidade comprada: ")
+leia(quantidade2)
+escreva("Dinheiro recebido: ")
+leia(dinheiro2)
+
+troco2 <- dinheiro2 - produto2 * quantidade2
+
+escreva("Troco = ", troco2:3:2)
+
+Fimalgoritmo
