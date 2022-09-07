@@ -1,0 +1,32 @@
+Algoritmo "Segunda"
+
+
+Var
+    idade    : inteiro
+    salario1 : real
+    salario2 : real
+    nome     : caractere
+
+Inicio
+
+      escreva(" Digite seu nome: ")
+      leia (nome)
+      
+      escreva(" Digite sua idade: ")
+      leia (idade)
+      
+      escreva(" Digite primeiro salario: ")
+      leia (salario1)
+      
+      escreva(" Digite segundo salario: ")
+      leia (salario2)
+
+      escreval()
+
+      escreval(" Dados digitados: ")
+      escreval()
+      escreval(" Nome  = ", nome)
+      escreval(" Idade = ", idade)
+      escreval(" Primeiro salario = ", salario1:6:2)
+      escreval(" Segundo salario  = ", salario2:6:2)
+Fimalgoritmo
