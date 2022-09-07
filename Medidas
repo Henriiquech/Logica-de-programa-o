@@ -1,0 +1,38 @@
+Algoritmo "medidas"
+Var
+   a, b, c, quadrado, triangulo, trapezio : real
+   a2, b2, c2, quadrado2, triangulo2, trapezio2 : real
+Inicio
+  escreva("Digite a medida A: ")
+  leia(a)
+  escreva("Digite a medida B: ")
+  leia(b)
+  escreva("Digite a medida C: ")
+  leia(c)
+  escreval()
+  
+  quadrado <- exp(a, 2)
+  triangulo <- a * b / 2
+  trapezio <- (a + b) * c / 2
+  escreval("Area do quadrado = ", quadrado:6:4)
+  escreval("Area do triangulo = ", triangulo:6:4)
+  escreval("Area do trapezio = ", trapezio:6:4)
+  escreval()
+  
+  escreva("Digite a medida A: ")
+  leia(a2)
+  escreva("Digite a medida B: ")
+  leia(b2)
+  escreva("Digite a medida C: ")
+  leia(c2)
+  escreval()
+  
+  quadrado2 <- exp(a2, 2)
+  triangulo2 <- a2 * b2 / 2
+  trapezio2 <- (a2 + b2) * c2 / 2
+  
+  escreval("Area do quadrado = ", quadrado2:6:4)
+  escreval("Area do triangulo = ", triangulo2:6:4)
+  escreval("Area do trapezio = ", trapezio2:6:4)
+
+Fimalgoritmo
