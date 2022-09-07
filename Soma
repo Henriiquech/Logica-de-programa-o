@@ -1,0 +1,29 @@
+Algoritmo "soma"
+
+Var
+X, Y, soma : inteiro
+X2, Y2, soma2 : inteiro
+
+Inicio
+escreva("Digite o valor de X: ")
+leia(X)
+
+escreva("Digite o valor de Y: ")
+leia(y)
+
+soma <- X + Y
+escreva("Soma = ", soma)
+escreval()
+
+escreva("Digite o valor do X2: ")
+leia (X2)
+
+escreva("Digite o valor do Y2: ")
+leia(Y2)
+
+soma2 <- X2 + Y2
+
+escreva("Soma = ",soma2)
+
+
+Fimalgoritmo
