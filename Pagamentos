@@ -1,0 +1,34 @@
+Algoritmo "pagamento"
+Var
+   funcionario1, funcionario2 : caractere
+   valorH, valorH2, pagamento, pagamento2 : real
+   quantidade, quantidade2 : inteiro
+   
+
+Inicio
+ escreva("Nome: ", funcionario1)
+ leia(funcionario1)
+ escreva("Valor por Hora: ")
+ leia(valorH)
+ escreva("Horas trabalhadas: ")
+ leia(quantidade)
+
+ pagamento <- valorH * quantidade
+ 
+ escreval("O pagamento para ", funcionario1, " deve ser de R$", pagamento:6:2)
+ escreval()
+ 
+ escreva("Nome: ", funcionario2)
+ leia(funcionario2)
+ escreva("Valor por Hora: ")
+ leia(valorH2)
+ escreva("Horas trabalhadas: ")
+ leia(quantidade2)
+ 
+ pagamento2 <- valorH2 * quantidade2
+ 
+ escreval("O pagamento para ", funcionario2, " deve ser de R$", pagamento2:6:2)
+
+ 
+
+Fimalgoritmo
