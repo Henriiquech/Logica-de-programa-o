@@ -1,0 +1,47 @@
+Algoritmo "horas"
+
+Var
+  horas, minutos, segundos : real
+  tempoS : inteiro
+  horas2, minutos2, segundos2 : real
+  tempoS2 : inteiro
+  horas3, minutos3, segundos3 : real
+  tempoS3 : inteiro
+
+Inicio
+  escreva("Digite a duracao em segundos: ")
+  leia(tempoS)
+
+  horas <- tempoS div 3600
+  minutos <- (tempoS % 3600) / 60
+  segundos <- (tempoS % 3600) % 60
+
+  escreval(horas:2,":",minutos:2,":",segundos:2)
+  escreval()
+
+  escreva("Digite a duração em segundo: ")
+  leia(tempoS2)
+  
+  horas2 <- tempoS2 div 3600
+  minutos2 <- (tempoS2 % 3600) / 60
+  segundos2 <- (tempoS2 % 3600) % 60
+
+  escreval(horas2:2,":",minutos2:2,":",segundos2:2)
+  escreval()
+  
+  escreva("Digite a duração por segundo: ")
+  leia(tempoS3)
+  
+  horas3 <- tempoS3 div 3600
+  minutos3 <- (tempoS3 % 3600) / 60
+  segundos3 <- (tempoS3 % 3600) % 60
+  
+  escreva(horas3:2,":",minutos3:2,":",segundos3:2)
+  
+  
+  
+  
+  
+  
+  
+Fimalgoritmo
